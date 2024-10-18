@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/*header*/
+/*top*/
 header{
   background-color:  rgba(79,198,202,.2);
 }
@@ -52,18 +54,121 @@ header nav ul a{
   text-decoration: none;
   padding: 0 10px;
 }
+/*/top*/
 
+/*jambo*/
 .jambo{
   background-color: blue;
   min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-jambo{
-  width: 80%;
+  width: 60%;
   max-width: 1100px;
   margin: 0 auto;
   background-color: red;
   min-height: 200px;
 }
+/*/jambo*/
+/*/header*/
 
+/*main*/
+/*section-study*/
+.study{
+  display: flex;
+  align-items: center;
+  min-height: 400px;
+}
 
+.container-study{
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: green;
+  min-height: 300px;
+  display: flex;
+}
+
+main .study-img{
+  width: 60%;
+  background-color: rgb(24, 124, 191);
+}
+
+main .study-text{
+  width: 40%;
+  background-color: rgb(219, 144, 157);
+}
+/*section-study*/
+
+/*section-dove*/
+.dove{
+  display: flex;
+  align-items: center;
+  min-height: 400px;
+  background-color: lightgray;
+}
+
+.container-dove{
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: 300px;
+  display: flex;
+}
+
+main .dove-img{
+  width: 60%;
+  background-color: rgb(24, 124, 191);
+}
+
+main .dove-text{
+  width: 40%;
+  background-color: rgb(219, 144, 157);
+}
+/*/section-dove*/
+
+/*section-fandom*/
+.fandom{
+  display: flex;
+  align-items: center;
+  min-height: 400px;
+}
+
+.container-fandom{
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: 300px;
+  display: flex;
+}
+
+main .fandom-img{
+  width: 60%;
+  background-color: rgb(24, 124, 191);
+}
+
+main .fandom-text{
+  width: 40%;
+  background-color: rgb(219, 144, 157);
+}
+/*/fandom*/
+
+/*tecnologia*/
+.tecnologia{
+  background-color: lightgray;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-tecno{
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: green;
+  min-height: 400px;
+}
